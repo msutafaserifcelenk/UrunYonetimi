@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace UrunYonetimi
+namespace UrunYonetimiAdo
 {
     static class Program
     {
@@ -16,7 +16,7 @@ namespace UrunYonetimi
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new UrunlerForm());
+            Application.Run(new Form1());
         }
     }
 }
